@@ -18,6 +18,7 @@ This backend server handles routing, authentication w/ JWT tokens and database m
 * Navigate to the saved location using ```cd folderName``` command, where *folderName* is the name of your path folder
 * When in right location run:
 ```
+go mod download
 go build
 go run main.go
 ```
